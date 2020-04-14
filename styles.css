@@ -1,0 +1,102 @@
+body,
+html {
+    height: 100%;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.mobile {
+     background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, .60), 
+      rgba(0, 0, 0, .60)
+    ),
+    /* bottom, image */
+    url(photos/background.jpg);
+    /* The image used */
+
+    /* Full height */
+    height:50%;
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mobile_2 {
+    background:
+        /* top, transparent red, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, .60),
+            rgba(0, 0, 0, .60)),
+        /* bottom, image */
+        url(photos/moon_cake.jpg);
+    /* The image used */
+
+    /* Full height */
+height: 50%;
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_1{
+    color:white;
+}
+.body_1{
+background-color: white;
+padding:15px;
+padding-bottom:50px;
+}
+.body_2{
+
+
+}
+.about_header {
+    color:#5BD4C9;
+}
+.card {
+    background-color:white;
+    border-radius:12px;
+    z-index: 1;
+    opacity: 100; !important
+}
+.desc{
+    color:#5BD4C9;
+}
+.header_desc {
+    color:white;
+    font-size: 3em;
+}
+.soc_icons img{
+    width: 60px;
+    height: 60px;
+    margin-top:40px;
+    margin: auto;
+    padding: 5px;
+}
+
+
+
+/* Larger Screen:*/
+@media screen and (min-width: 780px) {
+ .parallax{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+      rgba(0, 0, 0, .60), 
+      
+    /* bottom, image */
+    url(photos/background.jpg);
+    /* The image used */
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 0.5;
+      z-index: 0;
+}
+}
