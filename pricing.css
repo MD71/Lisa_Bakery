@@ -5,7 +5,11 @@
 
 .headers{
     font-weight: bold;
+    color:#5BD4C9;
+    margin-top:100px;
+
 }
+
 .mobile {
     background:
         /* top, transparent red, faked with gradient */
