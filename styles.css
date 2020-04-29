@@ -43,14 +43,9 @@ height: 90%;
     color:white;
 }
 .body_1{
-background-color: white;
-padding:15px;
 padding-bottom:50px;
 }
-.body_2{
 
-
-}
 .about_header {
     color:#5BD4C9;
 }
@@ -76,25 +71,48 @@ padding-bottom:50px;
 }
 
 /* Larger Screen:*/
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 990px) {
  .parallax{
-    background: 
+  background: 
     /* top, transparent red, faked with gradient */ 
+    linear-gradient(
       rgba(0, 0, 0, .60), 
-      
+      rgba(0, 0, 0, .60)
+    ),
     /* bottom, image */
     url(photos/background.jpg);
     /* The image used */
 
     /* Full height */
-    height: 50%;
-
+    height:50%;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 0.5;
-      z-index: 0;
 }
+ .parallax2 {
+     background:
+         /* top, transparent red, faked with gradient */
+         linear-gradient(rgba(0, 0, 0, .60),
+             rgba(0, 0, 0, .60)),
+         /* bottom, image */
+        url(photos/moon_cake.jpg);
+     /* The image used */
+
+     /* Full height */
+     height: 50%;
+     /* Create the parallax scrolling effect */
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+.about_us {
+    padding: 0 50px !important;
+}
+.about_header{
+padding-bottom: 0 !important;
+}
+.cake {
+    position: relative;
+    top:-150px;
+}
+
 }
