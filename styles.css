@@ -39,6 +39,10 @@ height: 90%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.request a{
+    text-decoration: none;
+    color:black !important;
+}
 .header_1{
     color:white;
 }

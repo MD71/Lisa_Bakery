@@ -12,11 +12,8 @@
 .footer {
     background-color: #5BD4C9;
     padding:30px;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
+    
 }
-
 .mobile {
     background:
         /* top, transparent red, faked with gradient */
