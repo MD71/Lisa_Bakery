@@ -87,6 +87,8 @@ max-width: 1400px;
     /* Full height */
     height:50%;
     /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -102,6 +104,8 @@ max-width: 1400px;
      /* Full height */
      height: 50%;
      /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+
      background-position: center;
      background-repeat: no-repeat;
  }
