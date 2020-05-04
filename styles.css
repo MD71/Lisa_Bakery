@@ -13,7 +13,7 @@ html {
       rgba(0, 0, 0, .60)
     ),
     /* bottom, image */
-    url(photos/background.jpg);
+    url(photos/cheesecake.jpg);
     /* The image used */
 
     /* Full height */
@@ -94,7 +94,7 @@ max-width: 1400px;
       background-attachment: fixed;
 
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
  .parallax2 {
      background:
