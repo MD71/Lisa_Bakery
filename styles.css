@@ -85,7 +85,7 @@ max-width: 1400px;
       rgba(0, 0, 0, .60)
     ),
     /* bottom, image */
-    url(photos/background.jpg);
+    url(photos/cheesecake.jpg);
     /* The image used */
 
     /* Full height */
@@ -110,7 +110,7 @@ max-width: 1400px;
      /* Create the parallax scrolling effect */
        background-attachment: fixed;
 
-     background-position: center;
+     background-position: cover;
      background-repeat: no-repeat;
  }
 .about_us {
