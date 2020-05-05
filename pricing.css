@@ -17,8 +17,8 @@
 .mobile {
     background:
         /* top, transparent red, faked with gradient */
-        linear-gradient(rgba(0, 0, 0, .60),
-            rgba(0, 0, 0, .60)),
+        linear-gradient(rgba(0, 0, 0, .30),
+            rgba(0, 0, 0, .30)),
         /* bottom, image */
         url(photos/pricing.jpg);
     /* The image used */
