@@ -58,7 +58,7 @@ max-width: 1400px;
     background-color:white;
     border-radius:12px;
     z-index: 1;
-    opacity: 100; !important
+    opacity: 100; 
 }
 .desc{
     color:#5BD4C9;
@@ -81,15 +81,15 @@ max-width: 1400px;
   background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(0, 0, 0, .60), 
-      rgba(0, 0, 0, .60)
+      rgba(0, 0, 0, .40), 
+      rgba(0, 0, 0, .40)
     ),
     /* bottom, image */
     url(photos/cheesecake.jpg);
     /* The image used */
 
     /* Full height */
-    height:50%;
+    height:80%;
     /* Create the parallax scrolling effect */
       background-attachment: fixed;
 
@@ -100,13 +100,13 @@ max-width: 1400px;
      background:
          /* top, transparent red, faked with gradient */
          linear-gradient(rgba(0, 0, 0, .60),
-             rgba(0, 0, 0, .60)),
+             rgba(0, 0, 0, .70)),
          /* bottom, image */
         url(photos/moon_cake.jpg);
      /* The image used */
 
      /* Full height */
-     height: 50%;
+     height: 80%;
      /* Create the parallax scrolling effect */
        background-attachment: fixed;
 
