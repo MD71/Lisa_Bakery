@@ -93,7 +93,8 @@ max-width: 1400px;
     /* Create the parallax scrolling effect */
       background-attachment: fixed;
 
-    background-position: cover;
+     background-position: center!important;
+     background-position: cover;
     background-repeat: repeat;
 }
  .parallax2 {
@@ -110,7 +111,7 @@ max-width: 1400px;
      /* Create the parallax scrolling effect */
        background-attachment: fixed;
 
-     background-position: center;
+     background-position: center!important;
      background-repeat: no-repeat;
  }
 .about_us {
