@@ -13,7 +13,7 @@ html {
       rgba(0, 0, 0, .60)
     ),
     /* bottom, image */
-    url(photos/cheesecake.jpg);
+    url(photos/pricing.jpg);
     /* The image used */
 
     /* Full height */
@@ -111,7 +111,7 @@ max-width: 1400px;
      /* Create the parallax scrolling effect */
        background-attachment: fixed;
 
-     background-position: center!important;
+     background-position:center top!important;
      background-repeat: no-repeat;
  }
 .about_us {
