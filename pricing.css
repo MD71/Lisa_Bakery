@@ -20,11 +20,11 @@
         linear-gradient(rgba(0, 0, 0, .30),
             rgba(0, 0, 0, .30)),
         /* bottom, image */
-        url(photos/cake2.jpg);
+        url(photos/test.jpg);
     /* The image used */
 
     /* Full height */
-    height: 400px;
+    height: 600px;
     /* Create the parallax scrolling effect */
     background-position: center;
     background-repeat: no-repeat;

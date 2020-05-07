@@ -95,7 +95,7 @@ max-width: 1400px;
       background-attachment: fixed;
 
      background-position: center!important;
-     background-size:contain;
+     background-size:cover;
     background-repeat: no-repeat;
 }
  .parallax2 {
