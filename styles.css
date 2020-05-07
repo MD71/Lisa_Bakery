@@ -1,6 +1,7 @@
 body,
 html {
     height: 100%;
+    background-color: white;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -85,7 +86,7 @@ max-width: 1400px;
       rgba(0, 0, 0, .40)
     ),
     /* bottom, image */
-    url(photos/cheesecake.jpg);
+    url(photos/pricing_large.jpg);
     /* The image used */
 
     /* Full height */
@@ -94,8 +95,8 @@ max-width: 1400px;
       background-attachment: fixed;
 
      background-position: center!important;
-     background-position: cover;
-    background-repeat: repeat;
+     background-size:contain;
+    background-repeat: no-repeat;
 }
  .parallax2 {
      background:
