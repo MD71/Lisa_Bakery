@@ -10,7 +10,7 @@ let message = $('.message').val()
 let statusElm = $('.status')
 statusElm.empty()
 
-if(email.length > 5 && email.includes('@' && email.includes('.'))){
+if(email.length > 5 && email.includes('@') && email.includes('.'))){
 console.log("email is valid")
 statusElm.append('<div>Email is Valid</div>')
 } else {
